@@ -87,7 +87,7 @@ header{
     z-index: -1;
 }
 .bienvenidos-letras{
-    transform: translateX(75%) translateY(-550%);
+    transform: translateX(85%) translateY(-550%);
     display: inline-block;
     text-align: center;
     z-index: 0;
@@ -104,20 +104,21 @@ header{
 }
 .boton-contacto{
     display: inline-block;
-    transform: translateX(265%) translateY(-550%);
+    transform: translateX(190%) translateY(-550%);
     text-align: center;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin: 10px;
-    padding: 5px;
+    padding: 15px;
     border-radius: 3px;
     background-color: aquamarine;
 }
 .boton-contacto:hover{
     background-color: rgba(127, 255, 212, 0.568);
     transition: 0.6s;
+    color: black;
 }
 .boton-contacto:active{
     background-color: rgba(127, 255, 212, 0.329);
@@ -160,12 +161,14 @@ footer{
     color:darkcyan;
     padding-top: 100px;
     padding-bottom: 0;
+    margin-top: 30px;
     margin-bottom: 0;
 }
 .subtitulo-queincluyen{
     font-family:Arial, Helvetica, sans-serif;
     color:darkcyan;
     font-size: xx-large;
+    margin-bottom: 20px;
 }
 .container-beneficios{
     display: flex;
@@ -178,7 +181,7 @@ footer{
     padding: 50px 10px;
     margin-bottom: 400px;
     border: 4px solid black;
-    background-color: white;
+    background-color: rgba(83, 177, 164, 0.452);
 }
 .container-beneficios__dieta{
     font-family: Arial, Helvetica, sans-serif;
@@ -186,7 +189,7 @@ footer{
     padding: 50px 10px;
     margin-bottom: 400px;
     border: 4px solid black;
-    background-color: white;
+    background-color: rgba(83, 177, 164, 0.452);
 }
 .container-beneficios__atencion{
     font-family: Arial, Helvetica, sans-serif;
@@ -194,7 +197,7 @@ footer{
     padding: 50px 10px;
     margin-bottom: 400px;
     border: 4px solid black;
-    background-color: white;}
+    background-color: rgba(83, 177, 164, 0.452);}
 .fondo-sobrenosotros{
     position: relative;
     width: 100%;
@@ -220,6 +223,7 @@ footer{
     display: flex;
     align-items: center;   
     flex-direction: column;
+    padding-top: 20px ;
 }
 .tituloasesorias{
     font-family: Arial, Helvetica, sans-serif;
@@ -239,6 +243,8 @@ footer{
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 100px;
+    font-weight: 600;
+    color: rgb(59, 58, 58);
 }
 .planes-titulo{
     text-align: center;
@@ -246,31 +252,34 @@ footer{
     font-size: x-large;
 }
 .plan-eco{
-    padding: 50px 20px;
+    padding: 60px 20px;
+    margin: 5px;
     border: 4px solid black;
     font-size: large;
-    margin-bottom:90px ;
+    margin-bottom:90px;
 }
 .plan-nov{
-    padding: 40px 20px;
+    padding: 46px 20px;
+    margin: 5px;
     border: 4px solid black;
     font-size: large;
-    margin-bottom:90px ;
+    margin-bottom:90px;
 }
 .plan-pro{
-    padding: 30px 20px;
+    padding: 33px 20px;
+    margin: 5px;
     border: 4px solid black;
     font-size: large;
-    margin-bottom:90px ;
+    margin-bottom:90px;
 }
 .formulario-datos{
     display: flex;
-    width: 900px;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 400px;
+    background-color: rgb(231, 231, 231);
     align-items:flex-start;
     flex-direction: column;
-    padding: 70px 0px 300px 100px;
+    padding: 35px 0px 300px 100px;
     margin-left: 50px;
     margin-bottom: 150px;
     font-family: Arial, Helvetica, sans-serif;
@@ -287,7 +296,7 @@ footer{
     padding: 0;
 }
 .botones-formulario{
-    margin-top: 20px;
+    margin-top: 80px;
 }
 /*.menu-icon{
     background-color:lightskyblue;
